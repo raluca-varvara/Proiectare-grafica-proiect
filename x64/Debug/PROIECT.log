@@ -1,0 +1,19 @@
+﻿  main.cpp
+D:\FACULTATE\AN 3\SEM 1\PG\LAB\PROIECT\PROIECT\main.cpp(15,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+D:\FACULTATE\AN 3\SEM 1\PG\LAB\lab2\lab2\Open GL dev libs\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+D:\FACULTATE\AN 3\SEM 1\PG\LAB\PROIECT\PROIECT\main.cpp(65,15): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\FACULTATE\AN 3\SEM 1\PG\LAB\PROIECT\PROIECT\main.cpp(205,31): warning C4244: '+=': conversion from 'double' to 'GLfloat', possible loss of data
+D:\FACULTATE\AN 3\SEM 1\PG\LAB\PROIECT\PROIECT\main.cpp(208,25): warning C4244: '+=': conversion from 'double' to 'GLfloat', possible loss of data
+D:\FACULTATE\AN 3\SEM 1\PG\LAB\PROIECT\PROIECT\main.cpp(583,52): warning C4244: '+=': conversion from 'double' to 'GLfloat', possible loss of data
+D:\FACULTATE\AN 3\SEM 1\PG\LAB\PROIECT\PROIECT\main.cpp(592,52): warning C4244: '-=': conversion from 'double' to 'GLfloat', possible loss of data
+D:\FACULTATE\AN 3\SEM 1\PG\LAB\PROIECT\PROIECT\main.cpp(617,33): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+D:\FACULTATE\AN 3\SEM 1\PG\LAB\PROIECT\PROIECT\main.cpp(621,33): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+D:\FACULTATE\AN 3\SEM 1\PG\LAB\PROIECT\PROIECT\main.cpp(688,90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\FACULTATE\AN 3\SEM 1\PG\LAB\PROIECT\PROIECT\main.cpp(689,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\FACULTATE\AN 3\SEM 1\PG\LAB\PROIECT\PROIECT\main.cpp(705,91): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\FACULTATE\AN 3\SEM 1\PG\LAB\PROIECT\PROIECT\main.cpp(706,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\FACULTATE\AN 3\SEM 1\PG\LAB\PROIECT\PROIECT\main.cpp(731,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\FACULTATE\AN 3\SEM 1\PG\LAB\PROIECT\PROIECT\main.cpp(732,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\FACULTATE\AN 3\SEM 1\PG\LAB\PROIECT\PROIECT\main.cpp(736,21): warning C4305: '=': truncation from 'double' to 'float'
+  PROIECT.vcxproj -> D:\FACULTATE\AN 3\SEM 1\PG\LAB\PROIECT\x64\Debug\PROIECT.exe

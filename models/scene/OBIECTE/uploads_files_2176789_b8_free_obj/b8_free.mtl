@@ -1,0 +1,710 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 28.11.2019 16:40:21
+
+newmtl window_gum_grey
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.1294 0.1333 0.1412
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl window_metalstripe
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0157 0.0157 0.0157
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl window_glass_frosted
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl wood_paint_grey
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.2941 0.2784 0.2784
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_PlywoodPainted0086_2_seamless_L.jpg
+	bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_PlywoodPainted0086_2_seamless_L.jpg
+
+newmtl window_frame_white
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.6667 0.6667 0.6667
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl window_glass
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl windowsill
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0784 0.0784 0.0863
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_BronzeCopper0044_1_seamless_M.jpg
+	bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_BronzeCopper0044_1_seamless_M.jpg
+
+newmtl shutter_box
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5647 0.5647 0.5647
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl plaster_white_rough
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.7059 0.7059 0.7059
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl plaster_lightgrey_fine
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl roofplate
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.1059 0.1098 0.1294
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_HammeredBlackMetal_2K_seamless-2.jpg
+	bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_HammeredBlackMetal_2K_seamless-2.jpg
+
+newmtl chimney_bricks
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_BrickSmallBrown0456_3_seamless_L.jpg
+	map_Kd Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_BrickSmallBrown0456_3_seamless_L.jpg
+	map_bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_BrickSmallBrown0456_3_seamless_L_b.jpg
+	bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_BrickSmallBrown0456_3_seamless_L_b.jpg
+
+newmtl concrete_bare
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl roofplate_green
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.1059 0.1216 0.1294
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\roofplate.jpg
+	map_Kd Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\roofplate.jpg
+	map_bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\roofplate.jpg
+	bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\roofplate.jpg
+
+newmtl drainage
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.2275 0.2275 0.2275
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl chamott
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0627 0.0627 0.0627
+	Kd 0.0627 0.0627 0.0627
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl window_glass_double
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl generic_metal
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\metalscratches.jpg
+	bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\metalscratches.jpg
+
+newmtl stainless_steel
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0157 0.0157 0.0157
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl kiosk_glass_cover
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl commcerial_01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.7059 0.7059 0.7059
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\kiosk_BZ.jpg
+	map_Kd Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\kiosk_BZ.jpg
+
+newmtl commercial_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.7059 0.7059 0.7059
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\kiosk_Lotto.jpg
+	map_Kd Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\kiosk_Lotto.jpg
+
+newmtl galvanized_metal
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl plaster_grey_clean
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.4314 0.4314 0.4314
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl plastic_grey
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5373 0.5373 0.5373
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl commcerial_03
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.7059 0.7059 0.7059
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\kiosk_HEADER.jpg
+	map_Kd Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\kiosk_HEADER.jpg
+
+newmtl sign_firefighters
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.7059 0.7059 0.7059
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\sign_firefighters.jpg
+	map_Kd Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\sign_firefighters.jpg
+	map_bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_HammeredBlackMetal_2K_seamless-2.jpg
+	bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_HammeredBlackMetal_2K_seamless-2.jpg
+
+newmtl sign_noparking
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.7059 0.7059 0.7059
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\sign_noparking.jpg
+	map_Kd Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\sign_noparking.jpg
+	map_bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_HammeredBlackMetal_2K_seamless-2.jpg
+	bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_HammeredBlackMetal_2K_seamless-2.jpg
+
+newmtl sign_keepclear
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.7059 0.7059 0.7059
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\sign_keepclear.jpg
+	map_Kd Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\sign_keepclear.jpg
+	map_bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_HammeredBlackMetal_2K_seamless-2.jpg
+	bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_HammeredBlackMetal_2K_seamless-2.jpg
+
+newmtl sign_adress
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.7059 0.7059 0.7059
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\sign_adressnumber.jpg
+	map_Kd Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\sign_adressnumber.jpg
+	map_bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_HammeredBlackMetal_2K_seamless-2.jpg
+	bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_HammeredBlackMetal_2K_seamless-2.jpg
+
+newmtl glass_accessory
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl chrome
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl lantern_poller
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.1765 0.1765 0.1765
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_MetalBare0234_1_seamless_M.jpg
+	map_Kd Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_MetalBare0234_1_seamless_M.jpg
+	map_bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_MetalBare0234_1_seamless_M.jpg
+	bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_MetalBare0234_1_seamless_M.jpg
+
+newmtl plastic_black
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0275 0.0275 0.0275
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl sunscreen_translucent_grey
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.7451 0.7451 0.7451
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl sunscreen_print_translucent
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.7451 0.7451 0.7451
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\kiosk_SUNSCREEN.jpg
+	map_Kd Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\kiosk_SUNSCREEN.jpg
+
+newmtl aluminium_soft
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.1569 0.1569 0.1569
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl commercial_lotto
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.7059 0.7059 0.7059
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\kiosk_Lotto2.jpg
+	map_Kd Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\kiosk_Lotto2.jpg
+
+newmtl brass
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0471 0.0431 0.0392
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl paper_white
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.7098 0.7098 0.7098
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl paper_black
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0118 0.0118 0.0118
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl window_frame_grey_dark
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.1255 0.1255 0.1294
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl metal_paint_black
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0235 0.0235 0.0235
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl wood_paint_blue
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.3255 0.3529 0.4157
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_PlywoodPainted0086_2_seamless_L.jpg
+	bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_PlywoodPainted0086_2_seamless_L.jpg
+
+newmtl wood_paint_brown
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0706 0.0588 0.0549
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl plaster_blue_clean
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.3255 0.3529 0.4157
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl plaster_white
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.7059 0.7059 0.7059
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl concrete_floor
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.3922 0.3922 0.3922
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_ConcreteFloors0039_1_seamless_S.jpg
+	bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_ConcreteFloors0039_1_seamless_S.jpg
+
+newmtl wood_floor
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_WoodPlanksClean0101_2_seamless_M.jpg
+	map_Kd Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_WoodPlanksClean0101_2_seamless_M.jpg
+	map_bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_WoodPlanksClean0101_2_seamless_M.jpg
+	bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_WoodPlanksClean0101_2_seamless_M.jpg
+
+newmtl plaster_white_interior
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.9922 0.9922 0.9922
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl attic_metal
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0784 0.0784 0.0863
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_BronzeCopper0044_1_seamless_M.jpg
+	bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_BronzeCopper0044_1_seamless_M.jpg
+
+newmtl metal_rough
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.1765 0.1765 0.1765
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl railing
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl shop_floor
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_FloorsMarble0020_1_L_tiling.jpg
+	map_Kd Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_FloorsMarble0020_1_L_tiling.jpg
+	map_bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_FloorsMarble0020_1_L_tiling.jpg
+	bump Z:\Projekte\01_privat\148_cityassets\project_sale\b8_free\textures\TexturesCom_FloorsMarble0020_1_L_tiling.jpg

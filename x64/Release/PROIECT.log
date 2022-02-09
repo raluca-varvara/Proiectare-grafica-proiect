@@ -1,0 +1,2 @@
+﻿main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) class irrklang::ISoundEngine * __cdecl irrklang::createIrrKlangDevice(enum irrklang::E_SOUND_OUTPUT_DRIVER,int,char const *,char const *)" (__imp_?createIrrKlangDevice@irrklang@@YAPEAVISoundEngine@1@W4E_SOUND_OUTPUT_DRIVER@1@HPEBD1@Z)
+D:\FACULTATE\AN 3\SEM 1\PG\LAB\PROIECT\x64\Release\PROIECT.exe : fatal error LNK1120: 1 unresolved externals
